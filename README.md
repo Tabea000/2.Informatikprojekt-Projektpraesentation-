@@ -2,16 +2,15 @@
 
 ## Informatikprojekt 2
 
-In diesem repositorie, stellen wir die Projekte, welche wir in den vergangenen Wochen bearbeitet und deren Fortschritte wir im "<a href="https://github.com/Tabea000/2.Informatikprojekt-Stundenblog-">Stundenblog</a>" festgehalten haben, ausführlich vor. Alle verwendeten Bilder sind in dem <a href="https://github.com/Tabea000/2.Informatikprojekt-Stundenblog-/tree/master/Bildverzeichnis">Bildverzeichnis</a> unseres Stundenblogs hinterlegt. Bei den drei Projekte, die wir in den vergangenen zwei Monaten entwickelt haben, handelt es sich um sehr bekannte Minispiele, deren Funktionsweisen, wir im Kleinen gerne nachvollzeiehen wollten.
-
-Über die Links, die den Zugriff auf das jeweilige Projekt im das Internet für alle möglich macht, die über die Webadresse verfügen, können die Spiele ausprobiert und die genaue Funktion der Blöcke mit den hier vorliegenden Beschreibungen verglichen werden. Hierfür haben wir auf Snap!, dem Programm, mit dem wir mithilfe der Blockschrift, die Minispiele programmiert haben, das jeweilige Projekt publiziert ("share").
-
 [Erstes Projekt: Pong Spiel](#1)
 
 [Erstes Projekt: Shooting Game](#2)
 
 [Drittes Projekt: Cross the Road](#3)
 
+In diesem repositorie, stellen wir die Projekte, welche wir in den vergangenen Wochen bearbeitet und deren Fortschritte wir im "<a href="https://github.com/Tabea000/2.Informatikprojekt-Stundenblog-">Stundenblog</a>" festgehalten haben, ausführlich vor. Alle verwendeten Bilder sind in dem <a href="https://github.com/Tabea000/2.Informatikprojekt-Stundenblog-/tree/master/Bildverzeichnis">Bildverzeichnis</a> unseres Stundenblogs hinterlegt. Bei den drei Projekte, die wir in den vergangenen zwei Monaten entwickelt haben, handelt es sich um sehr bekannte Minispiele, deren Funktionsweisen, wir im Kleinen gerne nachvollzeiehen wollten.
+
+Über die Links, die den Zugriff auf das jeweilige Projekt im das Internet für alle möglich macht, die über die Webadresse verfügen, können die Spiele ausprobiert und die genaue Funktion der Blöcke mit den hier vorliegenden Beschreibungen verglichen werden. Hierfür haben wir auf Snap!, dem Programm, mit dem wir mithilfe der Blockschrift, die Minispiele programmiert haben, das jeweilige Projekt publiziert ("share").
 
 
 ## <a name="1"></a>Erstes Projekt: Das Pong Spiel
