@@ -16,8 +16,7 @@ In diesem repositorie, stellen wir die Projekte, welche wir in den vergangenen W
 ## <a name="1"></a>Erstes Projekt: Das Pong Spiel
 
 Das erste Projekt, dass wir im Unterricht bearbeitet haben, war der Klassiker 
-
-https://snap.berkeley.edu/snapsource/snap.html#present:Username=Juliane000&ProjectName=Pong%20endg%C3%BCltige%20Version%2015.12
+"<a href="https://snap.berkeley.edu/snapsource/snap.html#present:Username=Juliane000&ProjectName=Pong%20endg%C3%BCltige%20Version%2015.12">Pong</a>"
 
 ![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/P%201_Pr%C3%A4sentation.png?raw=true "Präsentation")
 
