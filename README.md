@@ -24,9 +24,9 @@ In diesem repositorie, stellen wir die Projekte, welche wir in den vergangenen W
 
 ![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/P%205_Steuerung%20paddle2.png?raw=true "Steuerung paddle 2")
 
-![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/P%206_Bl%C3%B6cke%20%E2%80%9EYou%20won%201%262%E2%80%9C.png?raw=true "Blöcke "You won 1/2"")
+![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/P%206_Bl%C3%B6cke%20%E2%80%9EYou%20won%201%262%E2%80%9C.png?raw=true "Blöcke "You won 1/2" ")
 
-![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/P%207_Costumes%20%E2%80%9EYou%20won%201%262%E2%80%9C.png?raw=true "costumes "You won 1/2"")
+![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/P%207_Costumes%20%E2%80%9EYou%20won%201%262%E2%80%9C.png?raw=true "costumes "You won 1/2" ")
 
 
 
