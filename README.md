@@ -37,7 +37,7 @@ Das erste Projekt, dass wir im Unterricht bearbeitet haben, war der Klassiker
 
 ## <a name="2"></a>Zweites Projekt: Das Shooting Game
 
-Das zweite fertiggestellte Minispiel war ein "<a href="https://snap.berkeley.edu/snapsource/snap.html#present:Username=Juliane000&ProjectName=Shooting%20Game%20Versuch%20Won-">Shooting Game</a>"
+Das zweite fertiggestellte Minispiel war ein "<a href="https://snap.berkeley.edu/snapsource/snap.html#present:Username=Juliane000&ProjectName=Shooting%20Game%20Versuch%20Won">Shooting Game</a>"
 
 ![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/SG%201%20Pr%C3%A4sentation.png?raw=true "Präsentation")
 
