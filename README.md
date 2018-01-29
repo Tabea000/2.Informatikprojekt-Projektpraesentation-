@@ -9,7 +9,7 @@
 
 [Drittes Projekt: Cross the Road](#3)
 
-In diesem repositorie, stellen wir die Projekte, welche wir in den vergangenen Wochen bearbeitet und deren Fortschritte wir im "<a href="https://github.com/Tabea000/2.Informatikprojekt-Stundenblog-">Stundenblog</a>" festgehalten haben, ausführlich vor.
+In diesem repositorie, stellen wir die Projekte, welche wir in den vergangenen Wochen bearbeitet und deren Fortschritte wir im "<a href="https://github.com/Tabea000/2.Informatikprojekt-Stundenblog-">Stundenblog</a>" festgehalten haben, ausführlich vor. Alle verwendeten Bilder 
 
 
 ## <a name="1"></a>Erstes Projekt: Das Pong Spiel
@@ -33,19 +33,19 @@ In diesem repositorie, stellen wir die Projekte, welche wir in den vergangenen W
 
 ## <a name="2"></a>Zweites Projekt: Das Shooting Game
 
-![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/CtR%201_Pr%C3%A4stentation.png?raw=true "Präsentation")
+![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/SG%201%20Pr%C3%A4sentation.png?raw=true "Präsentation")
 
-![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/CtR%201_Pr%C3%A4stentation.png?raw=true "Präsentation")
+![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/SG%202%20stage-timer%26points.png?raw=true "stage: points&timer")
 
-![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/CtR%201_Pr%C3%A4stentation.png?raw=true "Präsentation")
+![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/SG%203%20sprites%20auf%20der%20stage.png?raw=true "stage mit sprites")
 
-![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/CtR%201_Pr%C3%A4stentation.png?raw=true "Präsentation")
+![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/SG%204%20Bl%C3%B6cke%20der%20Oktopusse.png?raw=true "Blöcke der Oktopusse")
 
-![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/CtR%201_Pr%C3%A4stentation.png?raw=true "Präsentation")
+![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/SG%205%20costumes%20der%20Oktopusse.png?raw=true "costumes der Oktopusse")
 
-![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/CtR%201_Pr%C3%A4stentation.png?raw=true "Präsentation")
+![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/SG%206%20Linse.png?raw=true "Linse")
 
-![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/CtR%201_Pr%C3%A4stentation.png?raw=true "Präsentation")
+![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/SG%207%20Game%20Over%20und%20Won.png?raw=true "Game over! und Won!")
 
 
 
