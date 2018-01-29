@@ -15,3 +15,5 @@ In diesem repositorie, stellen wir die Projekte, welche wir in den vergangenen W
 ## <a name="1"></a>Erstes Projekt: Das Pong Spiel
 ## <a name="2"></a>Zweites Projekt: Das Shooting Game
 ## <a name="3"></a>Drittes Projekt: Cross the Road
+
+![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/CtR%201_Pr%C3%A4stentation.png?raw=true "Screenshot von AppLab")
