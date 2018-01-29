@@ -4,7 +4,7 @@
 
 [Erstes Projekt: Pong Spiel](#1)
 
-[Erstes Projekt: Shooting Game](#2)
+[Zweites Projekt: Shooting Game](#2)
 
 [Drittes Projekt: Cross the Road](#3)
 
