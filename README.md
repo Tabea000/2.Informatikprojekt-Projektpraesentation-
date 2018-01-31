@@ -25,7 +25,6 @@ Das erste Projekt, dass wir im Unterricht bearbeitet haben, war der Klassiker
 ![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/P%203_Block%20des%20Balls.png?raw=true "Block des Balls")
 
 ![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/P%204_Steuerung%20paddle1.png?raw=true "Steuerung paddle 1")
-Für die Paddles benötigt man zwei Blöcke
 
 ![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/P%205_Steuerung%20paddle2.png?raw=true "Steuerung paddle 2")
 
