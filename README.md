@@ -62,15 +62,12 @@ Das zweite fertiggestellte Minispiel war ein "<a href="https://snap.berkeley.edu
 
 Bei dem dritten Projekt handelt es um das Spiel "<a href="https://snap.berkeley.edu/snapsource/snap.html#present:Username=juliane000&ProjectName=Crossy%20road%2015.12-">Cross the Road</a>". Dabei lenkt man eine Maus über eine Straße, auf der sich verschiedene Jäger befinden, zum Ziel, um zu gewinnen. Wird das Ziel nicht innerhalb der ablaufenden Zeit erreicht, oder wird die Maus von einem der Jäger gefasst, verliert man das Spiel. 
 
-![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/CtR%202_%20stage%20mit%20sprites.png?raw=true "stage mit sprites")
+![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/CtR%202_%20stage%20mit%20sprites.png?raw=true "stage mit sprites")Zu Beginn erstellt man einen Hintergrund mit der Funktion "paint a background", wofür man die Möglichkeit nutzt, rechtwinklige Figuren mit einer bestimmten Farbe auszufüllen ("filled rectangle") und gerade Lininen zu zeichnen ("line tool"). Außerdem importiert man verschiedene sprites auf die stage und wählt für diese passende costumes aus. Man benötigt beliebig viele Jäger, die sich senkrecht auf der Straße auf und abwärts bewegen, in diesem Fall eine Katze und vier Käfer. Zudem wir eine Figur (hier: eine Maus), die im finalen Spiel die Straße überqueren soll. dabei bewegt sie sich im 90° Winkel zur Laufrichtung der Jäger.
 
-ZU Beginn erstellt man einen Hintergrund mit der Funktion "paint a background", wofür man die Möglichkeit nutzt, rechtwinklige Figuren mit einer bestimmten Farbe auszufüllen ("filled rectangle") und gerade Lininen zu zeichnen ("line tool"). Außerdem importiert man verschiedene sprites auf die stage und wählt für diese passende costumes aus. Man benötigt beliebig viele Jäger, die sich senkrecht auf der Straße auf und abwärts bewegen, in diesem Fall eine Katze und vier Käfer. Zudem wir eine Figur (hier: eine Maus), die im finalen Spiel die Straße überqueren soll. dabei bewegt sie sich im 90° Winkel zur Laufrichtung der Jäger.
-
-![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/CtR%203_Bewegungsablauf.png?raw=true "Bewegungsablauf Jäger")
-
-Der oben abgebildete Bewegungsablauf der Jäger ist recht simpel. Er besteht aus den Bausteinen "When flag clicked"->"forever ("move (x)-steps"->"if on edge bounce")". Die Anzahl der steps kann je nach Bedarf variiert werden, sodass die Geschwindigkeit der Jäger individuell angepasst werden kann. Je höher die Anzahl der steps, desto höher die Geschwindigkeit.
+![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/CtR%203_Bewegungsablauf.png?raw=true "Bewegungsablauf Jäger")Der oben abgebildete Bewegungsablauf der Jäger ist recht simpel. Er besteht aus den Bausteinen "When flag clicked"->"forever ("move (x)-steps"->"if on edge bounce")". Die Anzahl der steps kann je nach Bedarf variiert werden, sodass die Geschwindigkeit der Jäger individuell angepasst werden kann. Je höher die Anzahl der steps, desto höher die Geschwindigkeit.
 
 ![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/CtR%204_%20Maus.png?raw=true "Maus-script")
+
 
 
 ![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/CtR%205_%20costumes%20Maus.png?raw=true "maus-costumes")
