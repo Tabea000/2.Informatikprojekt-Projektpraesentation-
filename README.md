@@ -21,15 +21,12 @@ Das erste Projekt, dass wir im Unterricht bearbeitet haben, war der Klassiker
 Für dieses Spiel benötigt man vier Sprites: einen Ball, zwei Paddles/Balken und ein Bild mit der Aufschrift "you won"
 
 
-![bsp appla b](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/P%201_Pr%C3%A4sentation.png?raw=true "Präsentation")
 
 ![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/P%202_%20stage%20mit%20sprites.png?raw=true "stage mit sprites")
 
 ![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/P%203_Block%20des%20Balls.png?raw=true "Block des Balls")
 
 ![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/P%204_Steuerung%20paddle1.png?raw=true "Steuerung paddle 1")
-
-![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/P%205_Steuerung%20paddle2.png?raw=true "Steuerung paddle 2")
 
 ![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/P%206_Bl%C3%B6cke%20%E2%80%9EYou%20won%201%262%E2%80%9C.png?raw=true "Blöcke-You won! 1/2")
 
@@ -42,7 +39,6 @@ Für dieses Spiel benötigt man vier Sprites: einen Ball, zwei Paddles/Balken un
 
 Das zweite fertiggestellte Minispiel war ein "<a href="https://snap.berkeley.edu/snapsource/snap.html#present:Username=Juliane000&ProjectName=Shooting%20Game%20Versuch%20Won">Shooting Game</a>"
 
-![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/SG%201%20Pr%C3%A4sentation.png?raw=true "Präsentation")
 
 ![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/SG%202%20stage-timer%26points.png?raw=true "stage: points&timer")
 
@@ -63,8 +59,6 @@ Das zweite fertiggestellte Minispiel war ein "<a href="https://snap.berkeley.edu
 [→Inhaltsverzeichnis](#Inhaltsverzeichnis)
 
 ## <a name="3"></a>Drittes Projekt: Cross the Road
-
-![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/CtR%201_Pr%C3%A4stentation.png?raw=true "Präsentation")
 
 Bei dem dritten Projekt handelt es um das Spiel <a href="https://snap.berkeley.edu/snapsource/snap.html#present:Username=juliane000&ProjectName=Crossy%20road%2015.12-">Cross the Road</a>. 
 
