@@ -37,7 +37,7 @@ Für dieses Spiel benötigt man vier Sprites: einen Ball, zwei Paddles/Balken un
 
 ## <a name="2"></a>Zweites Projekt: Das Shooting Game
 
-Das zweite fertiggestellte Minispiel war ein "<a href="https://snap.berkeley.edu/snapsource/snap.html#present:Username=Juliane000&ProjectName=Shooting%20Game%20Versuch%20Won">Shooting Game</a>"
+Das zweite fertiggestellte Minispiel war ein "<a href="https://snap.berkeley.edu/snapsource/snap.html#present:Username=Juliane000&ProjectName=Shooting%20Game%20Versuch%20Won">Shooting Game</a>". Hierbei gilt es, "fliegende Oktopusse" durch gezielte Schüsse zunächst die Farbe wechseln und in der Folge sie verschwinden zu lassen. Wird vor Ablauf der Zeit die notwendige Punktzahl von 6 erreicht, gewinnt der Spieler das Spiel.
 
 
 ![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/SG%202%20stage-timer%26points.png?raw=true "stage: points&timer")
