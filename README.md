@@ -37,10 +37,12 @@ Für dieses Spiel benötigt man vier Sprites: einen Ball, zwei Paddles/Balken un
 
 ## <a name="2"></a>Zweites Projekt: Das Shooting Game
 
-Das zweite fertiggestellte Minispiel war ein "<a href="https://snap.berkeley.edu/snapsource/snap.html#present:Username=Juliane000&ProjectName=Shooting%20Game%20Versuch%20Won">Shooting Game</a>". Hierbei gilt es, "fliegende Oktopusse" durch gezielte Schüsse zunächst die Farbe wechseln und in der Folge sie verschwinden zu lassen. Wird vor Ablauf der Zeit die notwendige Punktzahl von 6 erreicht, gewinnt der Spieler das Spiel.
+Das zweite fertiggestellte Minispiel war ein "<a href="https://snap.berkeley.edu/snapsource/snap.html#present:Username=Juliane000&ProjectName=Shooting%20Game%20Versuch%20Won">Shooting Game</a>". Hierbei gilt es "fliegende Oktopusse" durch gezielte Schüsse zunächst die Farbe wechseln und in Folge verschwinden zu lassen. Wird vor Ablauf der Zeit die notwendige Punktzahl von 6 erreicht, bzw. sind alle Oktopusse verschwunden, gewinnt der Spieler die Runde.
 
 
 ![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/SG%202%20stage-timer%26points.png?raw=true "stage: points&timer")
+
+Ein erster wichtiger Schritt ist es, zunächst die stage zu gestalten. Hierfür kann man beispielsweise aus den Vorlagen wählen, die im Programm Snap unter dem Punkt stage -> backgrounds findet. Außerdem gehören in das script der stage die Grundblöcke der selbsterstellten Variablen "points" und "timer". Erstere hängt eng mit den Blöcken der abzuschießenden Objekte zusammen und wird deshalb einzig zu Beginn einer neuen Runde, wie oben abgebildet auf 0 gesetzt. Der "timer" setzt einen zeitlichen, jedoch variablen Rahmen um das Spiel. 
 
 ![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/SG%203%20sprites%20auf%20der%20stage.png?raw=true "stage mit sprites")
 
