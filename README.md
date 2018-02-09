@@ -35,7 +35,7 @@ Der erste if-Baustein beschreibt, dass, wenn der Ball die Farbe des Paddles (hie
 
 Die Steurung der Paddles ist simpler aufgebaut. Diese übernimmt man mit zwei Pfeiltasten("When...key pressed"). Damit auch dieser nicht das Feld verlässt, wird "if on edge, bounce" eingesetzt. Zur senkrechten Bewegung benötigt man den Baustein " change y by..." einmal für einen positiven Wert und einmal für einen negativen. Diese Zahl kann man beliebig aussuchen, je nachdem wie schnell sich das Paddle bewegen soll. Für das zweite Paddle sieht der Block gleich aus, jedoch werden anstatt Pfeiltasten beliebige andere, zum Beispiel "a" und "q", zum steuern verwendet.
 
-![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/P%206_Bl%C3%B6cke%20%E2%80%9EYou%20won%201%262%E2%80%9C.png?raw=true"Blöcke-You won! 1/2")
+![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/P%206_Bl%C3%B6cke%20%E2%80%9EYou%20won%201%262%E2%80%9C.png?raw=true "Blöcke-You won! 1/2")
 
 Erreicht man die Punktzahl fünf, soll ein Bild mit dem Schriftzug "you won" erscheinen. Dafür benötigt man zunächst solch ein Bild; unseres ist zweimal aus dem Internet importiert und beide costumes jeweils mit einer eins oder zwei individualisiert. Wenn das Startsymbol, die Fahne, angeklickt wurde, soll sich das Bild solange verstecken, bis der Gewinnerstand von fünf Punkent erreicht wurde. Dafür sind zwei Blöcke vorhanden: ist der score von Spieler1 gleich fünf, so wird das costume "you won 1" gezeigt. Gewinnt Spieler2, wechselt das costume zu "you won 2": "When flag clicked"-&"hide"-&"forever-&"if score 2=5"-&"switch to costume "you won 2"-&"show".
 
