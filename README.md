@@ -16,8 +16,6 @@ In diesem Repositorie stellen wir die Projekte, welche wir in den vergangenen Wo
 ## <a name="1"></a>Erstes Projekt: Das Pong Spiel
 
 
-PONG:
-
 Das erste Projekt, dass wir im Unterricht bearbeitet haben, war der 
 Klassiker "<a href="https://snap.berkeley.edu/snapsource/snap.html#present:Username=Juliane000&ProjectName=Pong%20endg%C3%BCltige%20Version%2015.12">Pong</a>". Das Ziel dieses Spieles ist, den Ball des Gehners mit einem Paddle abzuwehren, damit dieser nicht die Wand hinter einem berührt und der Gegner einen Punkt erlangt.
 
