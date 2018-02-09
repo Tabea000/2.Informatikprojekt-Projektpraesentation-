@@ -19,85 +19,31 @@ In diesem Repositorie stellen wir die Projekte, welche wir in den vergangenen Wo
 PONG:
 
 Das erste Projekt, dass wir im Unterricht bearbeitet haben, war der 
-Klassiker
-"<a 
-href="https://snap.berkeley.edu/snapsource/snap.html#present:Username=Juliane000&ProjectName=Pong%20endg%C3%BCltige%20Version%2015.12">Pong</a>". 
-Das Ziel dieses Spieles ist, den Ball des Gehners mit einem Paddle 
-abzuwehren, damit dieser nicht die Wand hinter einem berührt und der 
-Gegner einen Punkt erlangt.
+Klassiker "<a href="https://snap.berkeley.edu/snapsource/snap.html#present:Username=Juliane000&ProjectName=Pong%20endg%C3%BCltige%20Version%2015.12">Pong</a>". Das Ziel dieses Spieles ist, den Ball des Gehners mit einem Paddle abzuwehren, damit dieser nicht die Wand hinter einem berührt und der Gegner einen Punkt erlangt.
 
-![bsp 
-applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/P%202_%20stage%20mit%20sprites.png?raw=true 
-"stage mit sprites")
+![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/P%202_%20stage%20mit%20sprites.png?raw=true "stage mit sprites")
 
-Für dieses Spiel benötigt man vier Sprites: einen Ball, zwei Paddles und 
-ein Bild mit der Aufschrift "you won". Die Stage, der Hintergrung, wir 
-mit zwei unterschiedlich farbigen Balken an der linken und rechten Wand 
-versehen, denn berührt der Ball eine Farbe wird der jeweilige score 
-erhöht. Hinzu kommen zwei Anzeigetafeln für die Punkte, "score" und 
-"score 2".
+Für dieses Spiel benötigt man vier Sprites: einen Ball, zwei Paddles und ein Bild mit der Aufschrift "you won". Die Stage, der Hintergrung, wir mit zwei unterschiedlich farbigen Balken an der linken und rechten Wand versehen, denn berührt der Ball eine Farbe wird der jeweilige score erhöht. Hinzu kommen zwei Anzeigetafeln für die Punkte, "score" und "score 2".
 
-![bsp 
-applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/P%203_Block%20des%20Balls.png?raw=true 
-"Block des Balls")
+![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/P%203_Block%20des%20Balls.png?raw=true "Block des Balls")
 
-Der Block für den Ball beschäftigt sich in den ersten vier BAusteinen 
-mit dem Spielanfang bzw. dem Neustart. Hier wird der Punktestand auf 
-Null gestezt, der Ball versetzt sich in die Mitte des Spielfeldes und 
-dessen "Laufrichtung" wir auf -45° festgelegt.
+Der Block für den Ball beschäftigt sich in den ersten vier BAusteinen mit dem Spielanfang bzw. dem Neustart. Hier wird der Punktestand auf Null gestezt, der Ball versetzt sich in die Mitte des Spielfeldes und dessen "Laufrichtung" wir auf -45° festgelegt.
 
-Die Zeitschleife "repat until" ist für den Spielablauf da, der bei 
-Erreichen von fünf Punkten endet und somit dieser Spieler gewonnen hat. 
-Innerhalb diese Bausteins wird zunächst die Bewegung des Balles 
-eingestellt: "move 10 steps". DAmit dieser nicht das Feld verlässt, 
-benötigt man der Baustein "if on edge, bounce".
+Die Zeitschleife "repat until" ist für den Spielablauf da, der bei Erreichen von fünf Punkten endet und somit dieser Spieler gewonnen hat. InnerHalb diese Bausteins wird zunächst die Bewegung des Balles eingestellt: "move 10 steps". DAmit dieser nicht das Feld verlässt, benötigt man der Baustein "if on edge, bounce".
 
-Der erste if-Baustein beschreibt, dass, wenn der Ball die Farbe des 
-Paddles (hier: grün) berührt,ein zufälliger Ausfallswinkel zwischen 
--130° und 120° gewählt wird. Um eine Veränderung des scores 
-hervorzurufen, benötigt man zwei weitere if-Bausteine. Diese 
-funtionieren so, dass sobald der Ball nicht vom Paddle abgewehrt werden 
-konnte und er auf den farbigen Balken dahinter trifft, der score vom 
-Gegner um eins erhöht wird: "if touching (blau/pink)"-&"change score 
-2/score) by 1"-&"point in direction 90°/-45°". Der letzte BAustein gibt 
-den Ausfallswinkel an. Es wurden verschiedene eingebaut(pick 
-random,-45,90), um etwas Variation ins Spiel zu bringen.
+Der erste if-Baustein beschreibt, dass, wenn der Ball die Farbe des Paddles (hier: grün) berührt,ein zufälliger Ausfallswinkel zwischen -130° und 120° gewählt wird. Um eine Veränderung des scores hervorzurufen, benötigt man zwei weitere if-Bausteine. Diese funtionieren so, dass sobald der Ball nicht vom Paddle abgewehrt werden konnte und er auf den farbigen Balken dahinter trifft, der score vom Gegner um eins erhöht wird: "if touching (blau/pink)"-&"change score 2/score) by 1"-&"point in direction 90°/-45°". Der letzte BAustein gibt den Ausfallswinkel an. Es wurden verschiedene eingebaut(pick random,-45,90), um etwas Variation ins Spiel zu bringen.
 
-![bsp 
-applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/P%204_Steuerung%20paddle1.png?raw=true 
-"Steuerung paddle 1")
+![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/P%204_Steuerung%20paddle1.png?raw=true "Steuerung paddle 1")
 
-Die Steurung der Paddles ist simpler aufgebaut. Diese übernimmt man mit 
-zwei Pfeiltasten("When...key pressed"). Damit auch dieser nicht das Feld 
-verlässt, wird "if on edge, bounce" eingesetzt. Zur senkrechten Bewegung 
-benötigt man den Baustein " change y by..." einmal für einen positiven 
-Wert und einmal für einen negativen. Diese Zahl kann man beliebig 
-aussuchen, je nachdem wie schnell sich das Paddle bewegen soll. Für das 
-zweite Paddle sieht der Block gleich aus, jedoch werden anstatt 
-Pfeiltasten beliebige andere, zum Beispiel "a" und "q", zum steuern 
-verwendet.
+Die Steurung der Paddles ist simpler aufgebaut. Diese übernimmt man mit zwei Pfeiltasten("When...key pressed"). Damit auch dieser nicht das Feld verlässt, wird "if on edge, bounce" eingesetzt. Zur senkrechten Bewegung benötigt man den Baustein " change y by..." einmal für einen positiven Wert und einmal für einen negativen. Diese Zahl kann man beliebig aussuchen, je nachdem wie schnell sich das Paddle bewegen soll. Für das zweite Paddle sieht der Block gleich aus, jedoch werden anstatt Pfeiltasten beliebige andere, zum Beispiel "a" und "q", zum steuern verwendet.
 
-![bsp 
-applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/P%206_Bl%C3%B6cke%20%E2%80%9EYou%20won%201%262%E2%80%9C.png?raw=true
-"Blöcke-You won! 1/2")
+![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/P%206_Bl%C3%B6cke%20%E2%80%9EYou%20won%201%262%E2%80%9C.png?raw=true"Blöcke-You won! 1/2")
 
-Erreicht man die Punktzahl fünf, soll ein Bild mit dem Schriftzug "you 
-won" erscheinen. Dafür benötigt man zunächst solch ein Bild; unseres ist 
-zweimal aus dem Internet importiert und beide costumes jeweils mit einer 
-eins oder zwei individualisiert. Wenn das Startsymbol, die Fahne, 
-angeklickt wurde, soll sich das Bild solange verstecken, bis der 
-Gewinnerstand von fünf Punkent erreicht wurde. Dafür sind zwei Blöcke 
-vorhanden: ist der score von Spieler1 gleich fünf, so wird das costume 
-"you won 1" gezeigt. Gewinnt Spieler2, wechselt das costume zu "you won 
-2": "When flag clicked"-&"hide"-&"forever-&"if score 2=5"-&"switch to 
-costume "you won 2"-&"show".
+Erreicht man die Punktzahl fünf, soll ein Bild mit dem Schriftzug "you won" erscheinen. Dafür benötigt man zunächst solch ein Bild; unseres ist zweimal aus dem Internet importiert und beide costumes jeweils mit einer eins oder zwei individualisiert. Wenn das Startsymbol, die Fahne, angeklickt wurde, soll sich das Bild solange verstecken, bis der Gewinnerstand von fünf Punkent erreicht wurde. Dafür sind zwei Blöcke vorhanden: ist der score von Spieler1 gleich fünf, so wird das costume "you won 1" gezeigt. Gewinnt Spieler2, wechselt das costume zu "you won 2": "When flag clicked"-&"hide"-&"forever-&"if score 2=5"-&"switch to costume "you won 2"-&"show".
 
-Der Klassiker "Pong" ist nun vollends programmiert und kann gespielt 
-werden.
+Der Klassiker "Pong" ist nun vollends programmiert und kann gespielt werden.
 
-![bsp 
-applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/P%207_Costumes%20%E2%80%9EYou%20won%201%262%E2%80%9C.png?raw=true 
-"costumes-You won! 1/2")
+![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/P%207_Costumes%20%E2%80%9EYou%20won%201%262%E2%80%9C.png?raw=true "costumes-You won! 1/2")
 
 [→Inhaltsverzeichnis](#Inhaltsverzeichnis)
 
@@ -145,80 +91,24 @@ Der oben abgebildete Bewegungsablauf der Jäger ist recht simpel. Er besteht aus
 applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/CtR%204_%20Maus.png?raw=true 
 "Maus-script")
 
-Im Gegensatz dazu ist das script der Maus um einiges vielfältiger. Zum 
-einen besteht es aus der Steuererung der Maus über die Pfeiltasten durch 
-den Baustein "when...key pressed". Hier kann man auch eine eine beliebig 
-andere Taste zur Steuerung einsetzen. Zur senkrechten Bewegung wird 
-"change y by...", zur waagerechten Bewegung "move...steps" angefügt und 
-mit 10/-10 als Wert versehen. Durch eine höhere oder niedrigere 
-Einstellung kann man hier, wie bei den Jägern, die Schnelligkeit 
-variieren.
+Im Gegensatz dazu ist das script der Maus um einiges vielfältiger. Zum einen besteht es aus der Steuererung der Maus über die Pfeiltasten durch den Baustein "when...key pressed". Hier kann man auch eine eine beliebig andere Taste zur Steuerung einsetzen. Zur senkrechten Bewegung wird "change y by...", zur waagerechten Bewegung "move...steps" angefügt und mit 10/-10 als Wert versehen. Durch eine höhere oder niedrigere Einstellung kann man hier, wie bei den Jägern, die Schnelligkeit variieren.
 
-Der große Block beschreibt das Verlieren durch Berührung mit einem der 
-Jäger. Dafür wir für jeden einzelnen ein Block erstellt, der besagt, 
-dass, im Falle einer Berührung, das costume der Maus zu einem "Game 
-over"-costumee wechselt, sich dieses zentriert und das Spiel gestoppt 
-wird. Das Bild für "Game over"(siehe nächstes Bild) wurde aus dem 
-Internet importiert, man kann es auch selber malen, wie im 
-"Shooting-Game". Diese if-Blöcke werden in die Zeitschleife "repeat 
-until timer=0" gesetzt, damit dieser Block nach Ende des Spiels nicht 
-mehr abläuft.
+Der große Block beschreibt das Verlieren durch Berührung mit einem der Jäger. Dafür wir für jeden einzelnen ein Block erstellt, der besagt, dass, im Falle einer Berührung, das costume der Maus zu einem "Game over"-costumee wechselt, sich dieses zentriert und das Spiel gestoppt wird. Das Bild für "Game over"(siehe nächstes Bild) wurde aus dem Internet importiert, man kann es auch selber malen, wie im "Shooting-Game". Diese if-Blöcke werden in die Zeitschleife "repeat until timer=0" gesetzt, damit dieser Block nach Ende des Spiels nicht mehr abläuft.
 
-Der Block für den Fall, dass man das Ziel (hier: Muffin) erreicht, 
-beruht auf dem selben Prinzip. Berührt die Maus den Muffin, wechselt 
-sich ihr costume, mit dem "switch to costume..."-Baustein, zu einem Bild 
-mir einer "You won"-Aufschrift(siehe nächstes Bild). Dieses wurde 
-ebenfalls importiert. Zudem lässt der Block den sprite zur Mitte der 
-stage springen und das Spiel stoppen; dieser if-Block lauft ebenfalls in 
-einer Zeitschleife.
-"When flag clicked"-�&"forever(if touching sprite)"-&"go to x:0 
-y:0"-&"switch to costume you won"-&"stop all" fässt diese Befehle für 
-die Maus zusammen.
+Der Block für den Fall, dass man das Ziel (hier: Muffin) erreicht, beruht auf dem selben Prinzip. Berührt die Maus den Muffin, wechselt sich ihr costume, mit dem "switch to costume..."-Baustein, zu einem Bild mir einer "You won"-Aufschrift(siehe nächstes Bild). Dieses wurde ebenfalls importiert. Zudem lässt der Block den sprite zur Mitte der stage springen und das Spiel stoppen; dieser if-Block lauft ebenfalls in einer Zeitschleife."When flag clicked"-�&"forever(if touching sprite)"-&"go to x:0 y:0"-&"switch to costume you won"-&"stop all" fässt diese Befehle für die Maus zusammen.
 
-Zuletzt wird ein Block für den Neustart des Spiels erstellt. Damit die 
-Maus zu ihrer Anfangsposition zurückkehrt und ihr ursprüngliches 
-Maus-costume anlegt, wird der Block so erbaut: "when flag clicked"-&"go 
-to x:-180 y:0"-&"switch to costume mouse".
+Zuletzt wird ein Block für den Neustart des Spiels erstellt. Damit die Maus zu ihrer Anfangsposition zurückkehrt und ihr ursprüngliches Maus-costume anlegt, wird der Block so erbaut: "when flag clicked"-&"go to x:-180 y:0"-&"switch to costume mouse".
 
-![bsp 
-applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/CtR%205_%20costumes%20Maus.png?raw=true 
-"maus-costumes")
-Hier einmal die die costumes "mouse", "Game over" und "you won" für den 
-Maus-sprite
+![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/CtR%205_%20costumes%20Maus.png?raw=true "maus-costumes")
 
-![bsp 
-applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/CtR%206_script%20game%20over.png?raw=true 
-"Game over!-script")
+Hier einmal die die costumes "mouse", "Game over" und "you won" für den Maus-sprite
 
-Der fehlende Block zur Vollendung von "Cross the road" ist für das "Game 
-over" durch Ablaufen der Zeit, und der Einstellung des Timers zuständig. 
-Dieser wir auf dem script des sprites "Game over" programmiert.in dem zu 
-sehendem Blog wir der Timer im Baustein "set timer to..." auf zehn 
-eingestellt. Damit dieser von zehn Sekunden herunter zählt, benötigt man 
-die Zusammensetzung "repeat 10"-&"wait 1 secs"-&"change timer by -1". Da 
-das "Game over"-Bild erst erscheinen soll, wenn der Timer abgelaufen 
-ist, setzt man noch die Bausteine "hide" vor, und "show" nach dem Block 
-des Timers. Am Ende wird erneut ein "stop all"-Baustein angefügt, damit 
-alle Bewgungsabläufe stoppen.
+![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/CtR%206_script%20game%20over.png?raw=true "Game over!-script")
+
+Der fehlende Block zur Vollendung von "Cross the road" ist für das "Game over" durch Ablaufen der Zeit, und der Einstellung des Timers zuständig. Dieser wir auf dem script des sprites "Game over" programmiert.in dem zu sehendem Blog wir der Timer im Baustein "set timer to..." auf zehn eingestellt. Damit dieser von zehn Sekunden herunter zählt, benötigt man die Zusammensetzung "repeat 10"-&"wait 1 secs"-&"change timer by -1". Da das "Game over"-Bild erst erscheinen soll, wenn der Timer abgelaufen ist, setzt man noch die Bausteine "hide" vor, und "show" nach dem Block des Timers. Am Ende wird erneut ein "stop all"-Baustein angefügt, damit alle Bewgungsabläufe stoppen.
 
 Nun ist das Spiel "Cross the road" fertig programmiert und man kann es 
 in der Praxis spielen.
 
 [→Inhaltsverzeichnis](#Inhaltsverzeichnis)
 
-
-![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/CtR%204_%20Maus.png?raw=true "Maus-script")
-
-Im Gegensatz dazu ist das script der Maus um einiges vielfältiger. Zum einen besteht es aus der Steuererung der Maus über die Pfeiltasten. 
-
-
-![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/CtR%205_%20costumes%20Maus.png?raw=true "maus-costumes")
-
-![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/CtR%206_script%20game%20over.png?raw=true "Game over!-script")
-
-
-
-
-
-
-[→Inhaltsverzeichnis](#Inhaltsverzeichnis)
