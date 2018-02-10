@@ -64,18 +64,22 @@ Da sowohl die Variable "points", als auch die Variable "timer" dem Spiel ein End
 
 Für beide Spielausgäge muss der sprite zu Beginn eines Spieles, beim Klicken auf die Fahne, zunächst versteckt ("hide") werden. Die beiden verschiedenen costumes ("Game over!" und "Won!") wurden bei dieser Spielversion durch die Funktion "paint" eigenhändig erstellt. Es besteht aber auch wie bereits bei der stage die Möglichkeit, costumes aus den Vorlagen austzuwählen oder sie zu importieren.
 
-
 ![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/SG%206%20Linse.png?raw=true "Linse")
 
-
+Somit steht fast das Grundgerüst des Spieles. Es fehlt jedoch noch die "Linse" mit der auf die fliegenden Objekte geziehlt werden kann. Diese wird optimaler Weise durch die "paint"-Funktion als costume eines weiteren sprites erstellt. Genutzt wird hierbei die Option, gerade Linien und Winkel, aber auch symmetrische Kreise zu zeichnen. Das script hierfür ist sehr simpel. Der sprite folgt durch den oben abgebildeten Block immer dem "mouse-pointer".
 
 ![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/SG%203%20sprites%20auf%20der%20stage.png?raw=true "stage mit sprites")
+
+Hier nochmal ein Überblick über alle sich auf der stage befindenen sprites in Aktion, nach Ende des Spiels. Die abzuschießenden Objekte, in diesem Fall Oktopusse, können aus den Vorlagen der sprites entnommen werden. Wählt man hierfür zwei verschiedene costumes aus. so kann der Anschein einer Bewegung entstehen. Daraufhin werden die notwendigen Blöcke erstellt. man nutzt hierfür nur einen einzelnen Vorlagesprite, der letztlich nach Belieben duplizert werden kann. Bei der Duplizierung muss darauf geachtet werden, dass die Anzahl der abzuschießenden Objekte im Rahmen der Möglichkeiten bleibt. Im Gegenzug können jedoch die Variablen-Blöcke der Anzahl angepasst werden, um die schwierigkeit zu erhöhen oder auch zu senken. die notwendige, zu erreichende Punktzahl, muss selbstverständlich der Anzahl der Oktopus-sprites angeglichen werden.
+
+![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/SG%205%20costumes%20der%20Oktopusse.png?raw=true "costumes der Oktopusse") Die beiden costumes, zwischn denen gewechselt wird, um den Bewegungs-Effekt zu erzeugen.
+
 
 ![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/SG%204%20Bl%C3%B6cke%20der%20Oktopusse.png?raw=true "Blöcke der Oktopusse")
 
 Wird eines der fliegenden Objekte abgeschossen, so steigt die Anzeige der Variablen "points" auf dem screen um den Betrag 1.
 
-![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/SG%205%20costumes%20der%20Oktopusse.png?raw=true "costumes der Oktopusse")
+
 
 
 [→Inhaltsverzeichnis](#Inhaltsverzeichnis)
