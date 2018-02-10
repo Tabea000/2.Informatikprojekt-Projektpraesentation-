@@ -51,10 +51,9 @@ Der Klassiker "Pong" ist nun vollends programmiert und kann gespielt werden.
 
 Das zweite fertiggestellte Minispiel war ein "<a href="https://snap.berkeley.edu/snapsource/snap.html#present:Username=Juliane000&ProjectName=Shooting%20Game%20Versuch%20Won">Shooting Game</a>". Hierbei gilt es "fliegende Oktopusse" durch gezielte Schüsse zunächst die Farbe wechseln und in Folge verschwinden zu lassen. Wird vor Ablauf der Zeit die notwendige Punktzahl von 6 erreicht, bzw. sind alle Oktopusse verschwunden, gewinnt der Spieler die Runde.
 
+![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/SG%207%20Game%20Over%20und%20Won.png?raw=true "Sprites, Game over! und Won!")
 
-![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/SG%202%20stage-timer%26points.png?raw=true "stage: points&timer")
-
-Ein erster wichtiger Schritt ist es, zunächst die stage zu gestalten. Hierfür kann man beispielsweise aus den Vorlagen wählen, die im Programm Snap unter dem Punkt stage -> backgrounds findet. Außerdem gehören in das script der stage die Grundblöcke der selbsterstellten Variablen "points" und "timer". Erstere hängt eng mit den Blöcken der abzuschießenden Objekte zusammen und wird deshalb einzig zu Beginn einer neuen Runde, wie oben abgebildet auf 0 gesetzt. Der "timer" setzt einen zeitlichen, jedoch variablen Rahmen um das Spiel. 
+Ein erster wichtiger Schritt ist es, zunächst die stage zu gestalten und zu programmieren. Hierfür kann man beispielsweise aus den Vorlagen wählen, die im Programm Snap unter dem Punkt stage -> backgrounds zu finden sind. Außerdem gehören in das script der stage die Grundblöcke der selbsterstellten Variablen "points" und "timer". Erstere hängt eng mit den Blöcken der abzuschießenden Objekte zusammen und wird deshalb einzig zu Beginn einer neuen Runde, wie oben abgebildet auf 0 gesetzt. Wird eines der fliegenden Objekte abgeschossen, so steigt die Anzeige der Variablen "points" auf dem screen um den Betrag 1. Der "timer" wiederum setzt einen zeitlichen, jedoch variablen Rahmen um das Spiel. Je vergangene Sekunde wird
 
 ![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/SG%203%20sprites%20auf%20der%20stage.png?raw=true "stage mit sprites")
 
@@ -64,7 +63,6 @@ Ein erster wichtiger Schritt ist es, zunächst die stage zu gestalten. Hierfür 
 
 ![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/SG%206%20Linse.png?raw=true "Linse")
 
-![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/SG%207%20Game%20Over%20und%20Won.png?raw=true "Game over! und Won!")
 
 
 
