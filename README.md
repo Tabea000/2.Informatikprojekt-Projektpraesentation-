@@ -81,10 +81,17 @@ Das kompizierteste Element des Spiels sind die Blöcke der Oktopusse, welche fü
 
 1. Wird eines der fliegenden Objekte abgeschossen, so steigt die Anzeige der Variablen "points" auf dem screen um den Betrag 1, die Farbe wechselt und der sprite verschwindet von der stage.
 
+Hierfür nutzt man den Umstand, dass die Position der Linse, der des mouse-pointers entspricht. Wird mit der space-taste "abgefeuert" und ist gleichzeitig die Bedingung erfüllt, dass der mouse-pointer den sprite berührt, wird der Baustein Treffer eingeleitet. Da ansonsten zu viele Bedingungen einen zu langen Zeitraum erfüllt sein müssten, ist es notwendig selbst einen Trefferblock zu erstellen. Dies macht man aus den Bausteinen "change points by 1 -> set colour effekt to 120 (=lila) -> wait 0.5 sec -> hide". Ist nun die erste Bedingung erfüllt, läuft der Baustein-Block "Treffer" getrennt von dem script ab.
+
 2. Zwischen den beiden costumes wird im passenden Zeitabstand gewechselt.
+
+Diesen Wechsel erschafft man durch einen in "forever" eingebauten Block, welcher nach Klicken der Fahne ständig abläuft. Ist er eingestellt, wird zwischen den beiden costumes im 0,2 Sekundentakt gewechselt. 
 
 3. Zu Beginn einer jeden Runde tauchen alle sprites beim Fahneklicken wieder auf, die ursprüngliche Farbe erscheint und die ständige random-Bewegung wird gewährleistet.
 
+Diese Funktionen gewährleistet man durch einen Block, der zu Beginn den colour-effekt wieder auf 0 setzt und außerdem die Oktopusse wieder zeigt ("show"). Ist dies abgelaufen, kann das Spiel sofort beginnen. Die wahrlose Bewegung ensteht durch die forever ablaufende Bausteinkombination "if on edge bounce -> glide 1 sec to x: pick random () y: pick random ()". Dadurch variieren sowohl die Beschwindigkeiten, als auch die Richtungen zwischen den Oktops-sprites, welche eigentlich im script identisch sind.
+
+Somit ist das Spiel abgeschlossen und beim Klicken auf die Fahne kann eine neue Runde ablaufen.
 
 
 [→Inhaltsverzeichnis](#Inhaltsverzeichnis)
