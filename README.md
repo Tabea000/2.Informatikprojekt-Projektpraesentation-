@@ -53,11 +53,17 @@ Das zweite fertiggestellte Minispiel war ein "<a href="https://snap.berkeley.edu
 
 ![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/SG%207%20Game%20Over%20und%20Won.png?raw=true "Sprites, Game over! und Won!")
 
-Ein erster wichtiger Schritt ist es, zunächst die stage zu gestalten und zu programmieren. Hierfür kann man beispielsweise aus den Vorlagen wählen, die im Programm Snap unter dem Punkt stage -> backgrounds zu finden sind. Außerdem gehören in das script der stage die Grundblöcke der selbsterstellten Variablen "points" und "timer". Erstere hängt eng mit den Blöcken der abzuschießenden Objekte zusammen und wird deshalb einzig zu Beginn einer neuen Runde, wie oben abgebildet auf 0 gesetzt. Wird eines der fliegenden Objekte abgeschossen, so steigt die Anzeige der Variablen "points" auf dem screen um den Betrag 1. Der "timer" wiederum setzt einen zeitlichen, jedoch variablen Rahmen um das Spiel. Je vergangene Sekunde wird
+Ein erster grundlegender Schritt ist es, die stage zu gestalten. Hierfür kann man beispielsweise aus den Vorlagen wählen, die im Programm Snap unter dem Punkt stage -> backgrounds zu finden sind. Eine andere Möglichkeit wäre es auch, ein Bild aus dem Internet herunter- und auf Snap wieder hochzuladen, oder auch durch die Funktion "paint a background", diesen, je nach Bedürfnis, selbst zu gestalten, was wir später bei "Cross the Road" umsetzten.
+
+Die selbsterstellten Variablen "points" und "timer" bilden als zentrale Elemente das Grundkonzept des Spieles. Erstere hängt eng mit den Blöcken der abzuschießenden Objekte zusammen und ist deshalb auch in den scripts dieser enthalten (s. unten -> Blöcke der Oktopusse). Zu Beginn jeder einer neuen Runde wird der Wert auf 0 gesetzt, gleiches gilt für den "timer". Es gilt wie oben abgebildet: "If (flag) clicked -> set (variable: timer/points) to 0". Der timer wiederum setzt einen zeitlichen, jedoch variablen Rahmen um das Spiel. Je vergangene Sekunde wird der Wert 1 von der Anzeige abgezogen. 
+
+Da sowohl die Variable "points", als auch die Variable "timer" dem Spiel ein Ende setzen, fügt an diese in dem scripts des sprites ein, welcher aus den costumes "Game over!" und "Won!" besteht. 
 
 ![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/SG%203%20sprites%20auf%20der%20stage.png?raw=true "stage mit sprites")
 
 ![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/SG%204%20Bl%C3%B6cke%20der%20Oktopusse.png?raw=true "Blöcke der Oktopusse")
+
+Wird eines der fliegenden Objekte abgeschossen, so steigt die Anzeige der Variablen "points" auf dem screen um den Betrag 1.
 
 ![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/SG%205%20costumes%20der%20Oktopusse.png?raw=true "costumes der Oktopusse")
 
