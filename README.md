@@ -56,8 +56,18 @@ Das zweite fertiggestellte Minispiel war ein "<a href="https://snap.berkeley.edu
 Ein erster grundlegender Schritt ist es, die stage zu gestalten. Hierfür kann man beispielsweise aus den Vorlagen wählen, die im Programm Snap unter dem Punkt stage -> backgrounds zu finden sind. Eine andere Möglichkeit wäre es auch, ein Bild aus dem Internet herunter- und auf Snap wieder hochzuladen, oder auch durch die Funktion "paint a background", diesen, je nach Bedürfnis, selbst zu gestalten, was wir später bei "Cross the Road" umsetzten.
 
 Die selbsterstellten Variablen "points" und "timer" bilden als zentrale Elemente das Grundkonzept des Spieles. Erstere hängt eng mit den Blöcken der abzuschießenden Objekte zusammen und ist deshalb auch in den scripts dieser enthalten (s. unten -> Blöcke der Oktopusse). Zu Beginn jeder einer neuen Runde wird der Wert auf 0 gesetzt, gleiches gilt für den "timer". Es gilt wie oben abgebildet: "If (flag) clicked -> set (variable: timer/points) to 0". Der timer wiederum setzt einen zeitlichen, jedoch variablen Rahmen um das Spiel. Je vergangene Sekunde wird der Wert 1 von der Anzeige abgezogen. 
+Da sowohl die Variable "points", als auch die Variable "timer" dem Spiel ein Ende setzen, fügt man diese in das scripts des sprites ein, welcher aus den costumes "Game over!" und "Won!" besteht. 
 
-Da sowohl die Variable "points", als auch die Variable "timer" dem Spiel ein Ende setzen, fügt an diese in dem scripts des sprites ein, welcher aus den costumes "Game over!" und "Won!" besteht. 
+1. Das Spiel ist gewonnen, wenn der Spieler vor Ablauf des "timers" eine Punktzahl erreicht, welche 6 beträgt, d.h. alle Oktopusse wurden abgeschossen. Hierfür erstellt man den Block "if points<5 -> switch to costume "Won!" -> show -> stop all" , welcher, damit eine ständige Überprüfung stattfindet, ob die Bedingung erfüllt ist, in einem "forever"-Baustein eingebaut ist.
+
+2. Das Spiel ist verloren, wenn nicht genügend Punkte erreicht wurden und der timer=0 ist. In einer repeat Schlaufe wird daher achtmal die Timer-Anzeige heruntergesetzt, bis diese 0 beträgt. Daraufhin wird zum costume "Game over!" geswitcht, der sprite auf der stage gezeigt und schließlich alle laufenden Blöcke gestoppt.
+
+Für beide Spielausgäge muss der sprite zu Beginn eines Spieles, beim Klicken auf die Fahne, zunächst versteckt ("hide") werden. Die beiden verschiedenen costumes ("Game over!" und "Won!") wurden bei dieser Spielversion durch die Funktion "paint" eigenhändig erstellt. Es besteht aber auch wie bereits bei der stage die Möglichkeit, costumes aus den Vorlagen austzuwählen oder sie zu importieren.
+
+
+![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/SG%206%20Linse.png?raw=true "Linse")
+
+
 
 ![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/SG%203%20sprites%20auf%20der%20stage.png?raw=true "stage mit sprites")
 
@@ -67,14 +77,11 @@ Wird eines der fliegenden Objekte abgeschossen, so steigt die Anzeige der Variab
 
 ![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/SG%205%20costumes%20der%20Oktopusse.png?raw=true "costumes der Oktopusse")
 
-![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/SG%206%20Linse.png?raw=true "Linse")
-
-
-
-
-
 
 [→Inhaltsverzeichnis](#Inhaltsverzeichnis)
+
+
+
 
 ## <a name="3"></a>Drittes Projekt: Cross the Road
 
