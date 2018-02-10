@@ -70,15 +70,20 @@ Somit steht fast das Grundgerüst des Spieles. Es fehlt jedoch noch die "Linse" 
 
 ![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/SG%203%20sprites%20auf%20der%20stage.png?raw=true "stage mit sprites")
 
-Hier nochmal ein Überblick über alle sich auf der stage befindenen sprites in Aktion, nach Ende des Spiels. Die abzuschießenden Objekte, in diesem Fall Oktopusse, können aus den Vorlagen der sprites entnommen werden. Wählt man hierfür zwei verschiedene costumes aus. so kann der Anschein einer Bewegung entstehen. Daraufhin werden die notwendigen Blöcke erstellt. man nutzt hierfür nur einen einzelnen Vorlagesprite, der letztlich nach Belieben duplizert werden kann. Bei der Duplizierung muss darauf geachtet werden, dass die Anzahl der abzuschießenden Objekte im Rahmen der Möglichkeiten bleibt. Im Gegenzug können jedoch die Variablen-Blöcke der Anzahl angepasst werden, um die schwierigkeit zu erhöhen oder auch zu senken. die notwendige, zu erreichende Punktzahl, muss selbstverständlich der Anzahl der Oktopus-sprites angeglichen werden.
+Hier nochmal ein Überblick über alle sich auf der stage befindenen sprites in Aktion, nach Ende des Spiels. Die abzuschießenden Objekte, in diesem Fall Oktopusse, können aus den Vorlagen der sprites entnommen werden. Wählt man hierfür zwei verschiedene costumes aus. so kann der Anschein einer Bewegung entstehen. Daraufhin werden die notwendigen Blöcke erstellt. Man nutzt hierfür nur einen einzelnen Vorlage-sprite, der letztlich nach Belieben dupliziert werden kann. Bei der Duplizierung muss darauf geachtet werden, dass die Anzahl der abzuschießenden Objekte im Rahmen des möglichen bleibt. Im Gegenzug können die Variablen-Blöcke der Anzahl angepasst werden, um die Schwierigkeit zu erhöhen oder auch zu senken. Die notwendige, zu erreichende, Punktzahl muss selbstverständlich der Anzahl der Oktopus-sprites angeglichen werden.
 
-![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/SG%205%20costumes%20der%20Oktopusse.png?raw=true "costumes der Oktopusse") Die beiden costumes, zwischn denen gewechselt wird, um den Bewegungs-Effekt zu erzeugen.
+![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/SG%205%20costumes%20der%20Oktopusse.png?raw=true "costumes der Oktopusse") Die beiden costumes, zwischen denen gewechselt wird, um den Bewegungs-Effekt zu erzeugen.
 
 
 ![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/SG%204%20Bl%C3%B6cke%20der%20Oktopusse.png?raw=true "Blöcke der Oktopusse")
 
-Wird eines der fliegenden Objekte abgeschossen, so steigt die Anzeige der Variablen "points" auf dem screen um den Betrag 1.
+Das kompizierteste Element des Spiels sind die Blöcke der Oktopusse, welche für alle identisch sind. An der oben liegenden Abbildung ist eine Erklärung jedoch leicht nachvollziehbar. Folgende Funktionen müssen erfüllt werden:
 
+1. Wird eines der fliegenden Objekte abgeschossen, so steigt die Anzeige der Variablen "points" auf dem screen um den Betrag 1, die Farbe wechselt und der sprite verschwindet von der stage.
+
+2. Zwischen den beiden costumes wird im passenden Zeitabstand gewechselt.
+
+3. Zu Beginn einer jeden Runde tauchen alle sprites beim Fahneklicken wieder auf, die ursprüngliche Farbe erscheint und die ständige random-Bewegung wird gewährleistet.
 
 
 
