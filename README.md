@@ -127,9 +127,7 @@ Der Block für den Fall, dass man das Ziel (hier: Muffin) erreicht, beruht auf d
 
 Zuletzt wird ein Block für den Neustart des Spiels erstellt. Damit die Maus zu ihrer Anfangsposition zurückkehrt und ihr ursprüngliches Maus-costume anlegt, wird der Block so erbaut: "when flag clicked -> go to x: (-180)  y: (0) -> switch to costume mouse".
 
-![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/CtR%205_%20costumes%20Maus.png?raw=true "maus-costumes")
-
-Hier einmal die costumes "mouse", "Game over" und "you won" für den Maus-sprite.
+![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/CtR%205_%20costumes%20Maus.png?raw=true "maus-costumes") Hier einmal die costumes "mouse", "Game over" und "you won" für den Maus-sprite.
 
 ![bsp applab](https://raw.githubusercontent.com/Tabea000/2.Informatikprojekt-Stundenblog-/master/Bildverzeichnis/CtR%206_script%20game%20over.png?raw=true "Game over!-script")
 
